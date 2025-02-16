@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+
+    <!--CSS Link-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Google Font Link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--Link Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!--Offer Banner-->
+
+    <div class="off">
+        <p>Sign Up and</p>
+        <p class="B"> GET 20% OFF</p>
+        <p>for your first Order</p>
+        <i id="offerbnt" class="fa-solid fa-x" style="color: white;" onclick="offerbtn()"></i>
+    </div>
+
+    <!--navbar-->
+
+    <nav class="navbar">
+        <h2>Nostra</h2>
+        <div class="nav">
+            <p><a href="./index.html">Home</a></p>
+            <p><a href="#arriv">New Arrival</a></p>
+            <p><a href="#most">Most Wanted</a></p>
+            <p><a href="./collection.html">Collections</a></p>
+            <p><a href="./content.html">Contact Us</a></p>
+        </div>
+        <i id="menu" class="fa-solid fa-bars" style="color: #030303;"></i>
+    </nav>
+
+    <!--Side-Navbar-->
+
+    <nav class="side-nav" id="sidenav">
+        <div class="side-nav__menus">
+            <p><a href="#">Home</a></p>
+            <p><a href="#arriv">New Arrival</a></p>
+            <p><a href="#most">Most Wanted</a></p>
+            <p><a href="./collection.html">Collections</a></p>
+            <p><a href="./content.html">Contact Us</a></p>
+        </div>
+        <div class="close" id="closenav">
+            <i class="fa-solid fa-xmark" style="color: #ffffff;"></i>
+        </div>
+    </nav>
+
+    <!--Categories-->
+
+    <div class="main">
+        <div class="categ">
+            <div class="categ-item">
+                <h3 style="color: black;">Occasion</h3>
+                <input type="checkbox" name="summer"> Summer <br>
+                <input type="checkbox" name="party"> Party <br>
+                <input type="checkbox" name="beach"> Beach
+            </div>
+
+            <div class="categ-item">
+                <h3 style="color: black;">color</h3>
+                <input type="checkbox" name="red"> Red <br>
+                <input type="checkbox" name="blue"> Blue <br>
+                <input type="checkbox" name="white"> White <br>
+                <input type="checkbox" name="green"> Green
+            </div>
+
+            <div class="categ-item">
+                <h3 style="color: black;">Arrivals</h3>
+                <input type="checkbox" name="old"> Old <br>
+                <input type="checkbox" name="new"> New
+            </div>
+        </div>
+
+        <!--Categories-images-->
+
+        <div class="Collections">
+            <div class="search">
+                <input type="text" placeholder="Search" id="search">
+                <i class="fa fa-search"></i>
+            </div>
+
+            <div class="dress-collections">
+                <div class="dresses">
+                    <img src="./Images/Collections/f1.jpg" alt="">
+                    <h2>Floral Summer Shirt</h2>
+                    <p style="color: black;">₹220</p>
+                </div>
+
+                <div class="dresses">
+                    <img src="./Images/Collections/f2.jpg" alt="">
+                    <h2>Summer Green</h2> center
+                    <p style="color: black;">₹260</p>
+                </div>
+
+                <div class="dresses">
+                    <img src="./Images/Collections/f3.jpg" alt="">
+                    <h2>Party Floral Shirt</h2>
+                    <p style="color: black;">₹260</p>
+                </div>
+
+                <div class="dresses">
+                    <img src="./Images/Collections/f4.jpg" alt="">
+                    <h2>Floral Summer Shirt</h2>
+                    <p style="color: black;">₹399</p>
+                </div>
+
+                <div class="dresses">
+                    <img src="./Images/Collections/f5.jpg" alt="">
+                    <h2>Beach Shirt</h2>
+                    <p style="color: black;">₹450</p>
+                </div>
+
+                <div class="dresses">
+                    <img src="./Images/Collections/f6.jpg" alt="">
+                    <h2>Shirty party Red</h2>
+                    <p style="color: black;">₹579</p>
+                </div>
+
+                <div class="dresses">
+                    <img src="./Images/Collections/f5.jpg" alt="">
+                    <h2>Party Floral Shirt</h2>
+                    <p style="color: black;">₹999</p>
+                </div>
+
+                <div class="dresses">
+                    <img src="./Images/Collections/f6.jpg" alt="">
+                    <h2>Summer Blue</h2>
+                    <p style="color: black;">₹798</p>
+                </div>
+
+                <div class="dresses">
+                    <img src="./Images/Collections/f1.jpg" alt="">
+                    <h2>Party Floral Shirt</h2>
+                    <p style="color: black;">₹750</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--Subscribe-->
+
+    <div class="sub">
+        <h1 style="font-size: 3.5vw;">Join our News Letter</h1>
+        <p style="font-size: 2vw; color: black;">Signup for our email newspaper to get exclusive discounts, updates,
+            and more</p>
+        <input type="text"><br>
+        <button>Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+
+    <!--Footer-->
+
+    <footer class="footer">
+        <h1 style="font-size: 3.5vw;">Nostra</h1>
+        <p style="font-size: 2vw;">The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for those
+            <br>interest
+        </p>
+        <div class="footer-icon">
+            <a><i class="icon fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+            <a><i class="icon fa-brands fa-twitter" style="color: #ffffff;"></i></a>
+            <a><i class="icon fa-brands fa-facebook" style="color: #ffffff;"></i></a>
+        </div>
+        <p style="font-size: 2vw;">@ 2023 Nostra.com</p>
+    </footer>
+
+    <!--Link Javascript File-->
+    
+    <script src="script.js"></script>
+
+</body>
+
+</html>
